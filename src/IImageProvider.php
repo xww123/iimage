@@ -1,5 +1,5 @@
 <?php
-namespace Nomandia\IImage;
+namespace Xww123\IImage;
 
 use Illuminate\Support\ServiceProvider;
 
