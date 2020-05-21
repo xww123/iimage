@@ -18,13 +18,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "xww123\\IImage\\": "src/"
+            "Xww123\\IImage\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "xww123\\IImage\\IImageProvider"
+                "Xww123\\IImage\\IImageProvider"
             ]
         }
     }
