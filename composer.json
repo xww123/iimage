@@ -1,0 +1,31 @@
+{
+    "name": "xww123/iimage",
+    "description": "\"Simple picture upload toolkit.\"",
+    "type": "library",
+    "require": {
+        "php": "~7.2",
+        "laravel/framework": "~5.6",
+        "intervention/image": "~2.4",
+        "qiniu/php-sdk": "~7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xieweiwen",
+            "email": "unix_pro@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "xww123\\IImage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "xww123\\IImage\\IImageProvider"
+            ]
+        }
+    }
+}
