@@ -13,7 +13,7 @@ class IImage
 
     public function initConfig()
     {
-        $configs = config('IImage', []);
+//        $configs = config('IImage', []);
     }
 
     public function surpriseMe($name){
